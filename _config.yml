@@ -4,6 +4,5 @@ theme: minima
 header_pages:
   - index.md
   - about.md
-  - research.md
   - cv.md
   - contact.md
