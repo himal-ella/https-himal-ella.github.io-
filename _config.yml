@@ -1,6 +1,10 @@
 title: Himal Ella
 theme: minima
 
+# This line turns on dark mode for the Minima theme
+minima:
+  skin: dark
+
 header_pages:
   - index.md
   - about.md
