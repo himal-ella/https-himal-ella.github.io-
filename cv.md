@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Ella Wood PhD Researcher
+title: CV
 permalink: /cv/
 ---
 
