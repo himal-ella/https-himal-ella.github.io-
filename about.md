@@ -1,7 +1,5 @@
 ---
 layout: page
 title: About
-permalink: /
+permalink: /about/
 ---
-# About Me
-Welcome to my site! This is my bio.
