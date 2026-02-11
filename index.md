@@ -75,10 +75,9 @@ layout: null
 <body>
 
 <div class="nav-container">
-        <a href="/about" class="nav-item">ABOUT</a>
-        <a href="/cv" class="nav-item">CV</a>
-        <a href="/contact" class="nav-item">CONTACT</a>
-    </div>
+    <a href="about" class="nav-item">ABOUT</a>
+    <a href="cv" class="nav-item">CV</a>
+    <a href="contact" class="nav-item">CONTACT</a>
 </div>
 
 </body>
