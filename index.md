@@ -4,15 +4,14 @@ layout: null
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Himal Ella</title>
+    <title>Ella Wood</title>
     <style>
         body, html { height: 100%; margin: 0; font-family: 'Helvetica', sans-serif; color: white; }
 
         /* The Background Image */
         .bg {
             background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-                              url('20240723_094701.jpg'); /* Replace this link */
-            height: 100%; 
+                              url('20240723_094701.jpg'); 
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -44,12 +43,11 @@ layout: null
 <body>
 
 <div class="bg">
-    <h1>Himal Ella</h1>
+    <h1>Ella Wood</h1>
     <p>Your Title or Description Here</p>
 
     <div class="nav-container">
         <a href="/about" class="nav-item">ABOUT</a>
-        <a href="/research" class="nav-item">RESEARCH</a>
         <a href="/cv" class="nav-item">CV</a>
         <a href="/contact" class="nav-item">CONTACT</a>
     </div>
