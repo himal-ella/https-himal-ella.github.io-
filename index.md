@@ -1,51 +1,56 @@
 ---
 layout: null
 ---
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Ella Wood</title>
     <style>
-        /* This kills the gap at the top and bottom */
-        * { 
-            margin: 0 !important; 
-            padding: 0 !important; 
-            box-sizing: border-box; 
-        }
-
-        html, body { 
+        /* 1. Reset and Center */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body, html { 
             height: 100%; 
-            width: 100%; 
-            overflow: hidden; 
-            background-color: #000; 
-            font-family: 'Helvetica', sans-serif; 
+            background-color: #111; /* Dark outer background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Helvetica', Arial, sans-serif;
+            overflow: hidden;
         }
 
-        .bg {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-                              url('20240723_094701.jpg'); 
-            height: 100vh; 
-            width: 100vw;
+        /* 2. The Placed/Framed Background Container */
+        .framed-bg {
+            width: 92vw;  /* Slightly less than full width */
+            height: 90vh; /* Slightly less than full height */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                              url('./20240723_094701.jpg'); 
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+            border: 1px solid #333; /* Subtle frame border */
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
         }
 
+        /* 3. Text Styling */
         h1 { 
-            font-size: 3rem; 
             color: white;
-            letter-spacing: 5px; 
+            font-size: 3rem; 
+            letter-spacing: 6px; 
             text-transform: uppercase; 
             border-top: 1px solid white; 
             border-bottom: 1px solid white; 
             padding: 20px 0; 
-            margin-bottom: 10px !important; /* Forces spacing below title */
-            width: 60%; 
+            margin-bottom: 15px; 
+            font-weight: 300;
+            width: 60%;
         }
 
         p { 
@@ -53,10 +58,16 @@ layout: null
             letter-spacing: 2px; 
             text-transform: uppercase; 
             font-size: 0.9rem; 
-            margin-bottom: 40px !important; 
+            margin-bottom: 40px; 
+            opacity: 0.9;
         }
 
-        .nav-container { display: flex; border: 1px solid white; }
+        /* 4. Navigation Buttons */
+        .nav-container { 
+            display: flex; 
+            border: 1px solid white; 
+            background: rgba(0, 0, 0, 0.2);
+        }
         
         .nav-item { 
             padding: 15px 30px; 
@@ -70,20 +81,22 @@ layout: null
         
         .nav-item:last-child { border-right: none; }
         .nav-item:hover { background: rgba(255,255,255,0.2); }
+
+        /* Mobile Adjustments */
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; width: 85%; }
+            .framed-bg { width: 95vw; height: 95vh; }
+            .nav-container { flex-direction: column; }
+            .nav-item { border-right: none; border-bottom: 1px solid white; }
+        }
     </style>
 </head>
 <body>
 
-<div class="bg">
+<div class="framed-bg">
     <h1>Ella Wood</h1>
     <p>PhD researcher | Remote Sensing | Python | Earth System Processes</p>
 
     <div class="nav-container">
-        <a href="/about/" class="nav-item">ABOUT</a>
-        <a href="/cv/" class="nav-item">CV</a>
-        <a href="/contact/" class="nav-item">CONTACT</a>
-    </div>
-</div>
-
-</body>
-</html>
+        <a href="./about/" class="nav-item">ABOUT</a>
+        <a
