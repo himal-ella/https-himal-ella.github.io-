@@ -34,6 +34,7 @@ permalink: /cv/
 * **ESA Earth Observation Workshop**, Belgium (2025)
 * **COP29 Baku Cryosphere Pavilion:** Early Career Researcher volunteer with the International Climate Cryosphere Initiative (2024)
 * **Norwegian Polar Academy**, Svalbard (2025)
+  
   ---
 
 ## Awards & Training
