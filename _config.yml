@@ -1,10 +1,11 @@
-title: Himal Ella
-theme: minima
+title: Ella Wood
+remote_theme: jekyll/minima
 
-# This line turns on dark mode for the Minima theme
+# Enable the dark skin
 minima:
   skin: dark
 
+# Navigation settings
 header_pages:
   - index.md
   - about.md
