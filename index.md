@@ -11,7 +11,7 @@ layout: null
         /* The Background Image */
         .bg {
             background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-                              url('your-image-url.jpg'); /* Replace this link */
+                              url('20240723_094701.jpg'); /* Replace this link */
             height: 100%; 
             background-position: center;
             background-repeat: no-repeat;
