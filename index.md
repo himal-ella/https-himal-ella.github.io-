@@ -44,7 +44,7 @@ layout: null
 
 <div class="bg">
     <h1>Ella Wood</h1>
-    <p>Your Title or Description Here</p>
+    <p>PhD researcher | Remote Sensing | Python | Earth System Processes</p>
 
     <div class="nav-container">
         <a href="/about" class="nav-item">ABOUT</a>
