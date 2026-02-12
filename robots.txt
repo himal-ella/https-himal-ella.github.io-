@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://himal-ella.github.io/sitemap.xml
