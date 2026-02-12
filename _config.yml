@@ -1,12 +1,9 @@
 title: Himal Ella
 remote_theme: jekyll/minima
 
-# Add your LinkedIn handle here (the part after linkedin.com/in/)
-linkedin_username: linkedin.com/in/ella-wood-b39a6917b
-github_username: himal-ella
-
 minima:
   skin: dark
+  social_links: [] # This removes all footer icons, including the RSS symbol
 
 header_pages:
   - about.md
