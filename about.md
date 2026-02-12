@@ -11,5 +11,7 @@ permalink: /about/
 
     <p style="margin-bottom: 1.5em;">My PhD research looks at the evolution of ice within deglaciating mountain landscapes in Central Asia using integrated remote sensing and geophysical methods.</p>
 
-    <p> <p> I am looking for opportunities in geospatial analysis and environmental management after completing my PhD in spring / summer 2026. </p></p>
+    <br><br>
+
+    <p>I am looking for opportunities in geospatial analysis and environmental management after completing my PhD in spring / summer 2026. </p>
 </div>
