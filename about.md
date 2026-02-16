@@ -2,7 +2,7 @@
 layout: page
 title: About
 description: PhD researcher in Remote Sensing and Earth System Processes at the University of St Andrews.
-keywords: Remote Sensing, Python, Glaciology, Central Asia, Geospatial Analysis
+keywords: Ella Wood, Glaciologist, Remote Sensing, St Andrews, Glaciology, PhD
 permalink: /about/
 ---
 
